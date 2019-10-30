@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <style>
+     .ammu{
+         padding: 200px;
+     }
+     body{
+         background-color: rgb(127, 129, 241);
+     }
+
+       </style>
+  </head>
+        <div class="container">
+            <div class="ammu">
+            <h2>Add Your Info</h2>
+            <form method="POST">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Full name" name="name">
+              </div>
+              <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email address" name="email">
+            </div>
+                  <div class="form-group">
+                        <label for="email">Phone number:</label>
+                        <input type="text" class="form-control" id="email" placeholder="Phone number" name="phone">
+                      </div>
+            <center><button type="submit" class="btn btn-red"onclick="javascript:alert('Submitted')">Submit</button></center>
+            </form>
+          <center>  <a href="display" class="btn btn-primary">Display All Entries</a></center>
+          </div>
+          </div>
+          <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+          <script src=".js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+          <script src="js/feather.min.js"></script>
+          <script>
+            feather.replace()
+          </script>
+    </body>
+</html>
